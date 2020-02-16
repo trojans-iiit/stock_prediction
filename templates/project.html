@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parsec Project</title>
+    <style>
+    body
+    {
+    	background-color: #f2f2f2; 
+    	color: white; 
+    }
+    .container {
+ 		position: relative;
+  		width: 90%;
+	}
+
+	.image {
+		opacity: 1;
+  		display: block;
+ 		width: 100%;
+  		height: auto;
+  		transition: .5s ease;
+ 		backface-visibility: hidden;
+	}
+
+	.middle {
+  		transition: .5s ease;
+  		opacity: 0;
+  		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		-ms-transform: translate(-50%, -50%);
+  		text-align: center;
+	}
+
+	.container:hover .image {
+  		opacity: 0.3;
+	}
+
+	.container:hover .middle {
+  		opacity: 1;
+	}
+
+	.text {
+  		background-color: ;
+  		color: white;
+  		font-size: 40px;
+  		padding: 16px 32px;
+	}
+
+    .button 
+    {
+        background-color: #111111;
+        /*border: 1px ;*/
+        /*color: white;*/
+        /*padding: 15px 32px;*/
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 12px;
+        /*border: 2px solid ##555555;*/
+    }
+    .button:hover
+    {
+        background-color: grey;
+        color: white;
+    }
+      
+    .button{width :10%}
+  </style>
+     
+    
+  </head>
+  <body>
+  	<center>
+    <div class="container">
+    <img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\stock.png" alt="Avatar" class="image" style="width:100%">
+    <div class="middle">
+    <div class="text"><b style="color:white;font-size:200%;font-family:calibri;">STOCK MARKET PREDICTION</b></div>
+    </div>
+    </div></center>
+    <br><br />
+    <center>
+    <div class="topnav">
+  		<a class="active" href="project.html" style="font-size:200%;">Home</b></a>
+ 	 	<a class="active" href="about.html" style="font-size:200%;">About</b></a>
+ 	 	<a class="active" href="contact.html" style="font-size:200%;">Contact</b></a>
+	</div></center>
+	<br /><br />
+
+    <center><h1 style="color:blue;font-size:400%;font-family:calibri;"> Stock Prediction by Previous Data </h1></center>
+    <center>
+		
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Apple_White.png" style="width:50%"></a></button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Google.png" style="width:50%"></a>
+	</button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Facebook.png" style="width:50%"></a>
+    </button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\HP.png" style="width:50%"></a>
+    </button>
+
+    <button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Amazon.png" style="width:50%"></a>
+    </button>
+
+	</center>
+
+	<center>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Tesla.png" style="width:50%"></a>
+	</button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Tata.png" style="width:50%"></a>
+    </button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Infosys.png" style="width:50%"></a>
+    </button>
+
+    <button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\PayPal.png" style="width:50%"></a>
+    </button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Alibaba.png" style="width:50%"></a>
+    </button>
+	</center>
+	
+	<br><br />
+	
+	
+    <center><h1 style="color:green;font-size:400%;font-family:Calibri;"> Predict Your Return</h1>
+    <form action="phase2.php" method="get">
+    <label for="url"><h1><b style="color:black;font-size: 130%;">Budget  </b></label>
+	<input type="number" name="amount" placeholder="Enter Amount.."></h1>
+	<label for="url"><h2><b style="color:black;font-size: 150%;">Time Period  </b></label>
+	<input type="number" name="year" placeholder="Enter Year.."></h2>
+	</center>
+	<br><br />
+	<center><input type="submit">
+	</form>
+	</center>
+	
+	<br><br />
+
+    <center><h1 style="color:gold;font-size:400%;font-family:Calibri;"> Stock Prediction by News</h1></center>
+
+	<center>
+		
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Apple_White.png" style="width:50%"></a></button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Google.png" style="width:50%"></a>
+	</button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Facebook.png" style="width:50%"></a>
+    </button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\HP.png" style="width:50%"></a>
+    </button>
+
+    <button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Amazon.png" style="width:50%"></a>
+    </button>
+
+	</center>
+
+	<center>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Tesla.png" style="width:50%"></a>
+	</button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Tata.png" style="width:50%"></a>
+    </button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Infosys.png" style="width:50%"></a>
+    </button>
+
+    <button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\PayPal.png" style="width:50%"></a>
+    </button>
+
+	<button class="button"><a href="/predict"><img src="C:\Users\Akash Kumar\OneDrive\Desktop\DevProject\Logos\Alibaba.png" style="width:50%"></a>
+    </button>
+	</center>
+	
+	<br><br />
+	
+  </body>
+</html>
